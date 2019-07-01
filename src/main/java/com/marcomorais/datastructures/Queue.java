@@ -18,6 +18,10 @@ public class Queue<T> {
 		return items.size();
 	}
 	
+	public boolean isEmpty() {
+		return items.size() == 0;
+	}
+	
 	public void clear() {
 		items.clear();
 	}
